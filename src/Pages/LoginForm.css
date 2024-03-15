@@ -1,0 +1,61 @@
+/* LoginForm.css */
+.fullpage{
+  display: flex; 
+ flex-direction: row;
+ align-items: center;
+ height: 100vh;
+}
+.container {
+    
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 500px;
+    
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d6ff44;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007bff;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
